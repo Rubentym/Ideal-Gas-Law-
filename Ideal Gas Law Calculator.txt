@@ -1,0 +1,10 @@
+def ideal_gas_law(P, V, n, R=0.0821):
+    return (n * R * T) / V
+
+# Example usage:
+P = 1.0  # Pressure (atm)
+V = 22.4  # Volume (L)
+n = 1.0  # Moles
+T = 273.15  # Temperature (K)
+result = ideal_gas_law(P, V, n)
+print("Ideal Gas Law Result:", result, "atm")
